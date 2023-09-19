@@ -1,0 +1,18 @@
+#include<stdio.h> 
+ float main() 
+ { 
+   float T, V, D, L; 
+   printf("Escreva o tempo:");
+   scanf("%f", &T); 
+   
+   printf ("Escreva a velocidade:");
+   scanf("%f", &V);
+   
+   D = V * T; 
+   L = D / 12; 
+   
+   printf("Litros usados: %.2f\n", L);
+   printf("Velocidade: %.2f \n", V);
+   printf("Tempo:%.2f \n", T);
+   printf("DistÃ¢ncia:%.2f", D); 
+ }
