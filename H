@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+float main ()
+{
+    float V, C, L, A;
+    printf("Escreva o comprimento:");
+    scanf("%f",&C);
+    printf("Escreva a largura:");
+    scanf("%f",&L);
+    printf("Escreva altura:");
+    scanf("%f",&A);
+    V = C * A * L;
+    printf("o volume e de: %.2f ", V);
+}
