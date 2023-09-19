@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+    int A, B, C;
+    printf("Escreva o valor de A: ");
+    scanf("%f",&A);
+    printf("Escreva o valor de B: ");
+    scanf("%f",&B);
+    C = A - B;
+    printf("Diferenca de A e B: %i ", C); 
+}
