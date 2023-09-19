@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<math.h>
+int main ()
+{
+float V, A, R;
+printf("Escreva o raio:");
+scanf("%f", &R);
+
+printf("Escreva a altura:");
+scanf("%f", &A);
+
+V = 3.14 * pow(R,2) *A;
+
+printf("O volume e de: %.2f", V);
+}
