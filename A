@@ -1,0 +1,12 @@
+#include<stdio.h>
+
+int main()
+{
+float C, F;
+printf("Escreva a temperatura em celcius: ");
+scanf("%f", &C);
+
+F = ( 9 * C + 160 ) /  5;
+
+printf("A temperatura Ã© de %2.f ÂºF", F);
+}
