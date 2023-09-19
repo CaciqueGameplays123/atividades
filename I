@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int Q, M;
+    printf("Escreva um valor para o numero que voce deseja o quadrado:");
+    scanf("%f",&M);
+    pow(M,2);
+    printf("O quadrado e de: %f", Q);
+}
