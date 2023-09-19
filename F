@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+int A, B, C;
+printf("Escreva A:");
+scanf("%i" , &A);
+printf("Escreva B:");
+scanf("%i", &B);
+C = A;
+A = B;
+B = C;
+printf("A: %i" ,A );
+printf( " B: %i",B );
+}
