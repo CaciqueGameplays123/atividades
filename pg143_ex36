@@ -1,0 +1,25 @@
+#include<stdio.h>
+ int main ()
+ {
+     float d,x,t;
+
+     printf("Insira o valor da compra: ");
+     scanf("%f",&x);
+     printf("\nInsira o valor pago: ");
+     scanf("%f",&d);
+
+     if (x==d)
+     {
+         printf("Troco nao necessario");
+     }
+     else if (x>d)
+     {
+         t=x-d;
+         printf("Valor restante: %.2f",t);
+     }
+     else
+     {
+         t=d-x;
+         printf("Troco necessario: %.2f",t);
+     }
+ }
