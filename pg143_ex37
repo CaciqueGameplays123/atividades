@@ -1,0 +1,62 @@
+#include<stdio.h>
+int main()
+ {
+     int mes;
+     printf("escreva o numero referente ao mes desejado: ");
+     scanf("%i",&mes);
+
+     switch (mes)
+     {
+    case 1:
+        printf("seu mes selecionado foi: janeiro");
+        break;
+
+    case 2:
+        printf("seu mes selecionado foi: fevereiro");
+        break;
+
+    case 3:
+        printf("seu mes selecionado foi: março");
+        break;
+
+    case 4:
+        printf("seu mes selecionado foi: abril");
+        break;
+
+    case 5:
+        printf("seu mes selecionado foi: maio");
+        break;
+
+    case 6:
+        printf("seu mes selecionado foi: junho");
+        break;
+
+    case 7:
+        printf("seu mes selecionado foi: julho");
+        break;
+
+    case 8:
+        printf("seu mes selecionado foi: agosto");
+        break;
+
+    case 9:
+        printf("seu mes selecionado foi: setembro");
+        break;
+
+    case 10:
+        printf("seu mês selecionado foi: outubro");
+        break;
+
+    case 11:
+        printf("seu mes selecionado foi: novembro");
+        break;
+
+    case 12:
+        printf("seu mes selecionado foi: dezembro");
+        break;
+
+    default:
+        printf("seu mes selecionado e inexistente");
+
+     }
+ }
