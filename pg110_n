@@ -1,0 +1,19 @@
+#include<stdio.h>
+ int main()
+  {
+      int A,B,C,X;
+
+      printf("Insira tres valores inteiros: \n");
+      scanf("%i %i %i",&A,&B,&C);
+
+     X = A+B+C;
+
+      if (X>=100)
+      {
+          printf("Resultado da soma: %i", X);
+      }
+      else
+      {
+          printf("Resultado inferior a 100, mais especificamente %i", X);
+      }
+  }
