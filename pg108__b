@@ -1,0 +1,18 @@
+#include<stdio.h>
+ int main()
+   {
+       int a,b;
+       printf("Insira um numero: \n");
+       scanf("%i",&a);
+
+       if (a>=0)
+       {
+           printf("Esse valor positivo e igual a: %i", a);
+       }
+       else
+       {
+           b= a*(-1);
+           printf("Esse valor positivo e igual a: %i", b);
+       }
+
+   }
