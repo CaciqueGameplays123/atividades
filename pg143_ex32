@@ -1,0 +1,40 @@
+//18,5 = abaixo do peso
+//18,6 a 24,9 = peso ideal
+//25 a 29,9 = levemente acima
+//30+ = obesidade
+
+#include<stdio.h>
+#include<math.h> 
+
+int main()
+{
+
+  float Kg, M, IMC;
+
+  printf("Digite seu peso em kg: ");
+  scanf("%f", &Kg);
+
+  printf("Digite sua altura em metros: ");
+  scanf("%f", &M);
+
+  IMC = Kg / pow(M, 2);
+  printf("seu imc e de: %f \n", IMC);
+
+  if (IMC <= 18.5) {
+  printf("voce esta abaixo do peso");
+  }
+
+  else if (IMC <= 24.9)  {
+  printf("voce esta no peso ideal");
+  }
+
+  else if  (IMC <= 29.9) {
+  printf("voce esta um pouco acima do peso");
+  }
+
+  else if (IMC > 30) {
+  printf("voce esta acima do peso");
+  }
+
+
+}
