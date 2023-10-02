@@ -15,7 +15,7 @@
      else if (x>d)
      {
          t=x-d;
-         printf("Valor restante: %.2f",t);
+         printf("Valor faltante: %.2f",t);
      }
      else
      {
